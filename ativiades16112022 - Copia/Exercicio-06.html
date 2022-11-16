@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function mudaImagem(nomeImagem) {
+        console.log("imagem =>" + nomeImagem);
+        document.querySelector("#imagemMaior").src = "images/" + nomeImagem + ".jpg";
+    }
+</script>
+
+<body>
+
+</body>
+
+<div class="miniaturas">
+    <img onclick="mudaImagem('gato')" src="images/gato.jpg" alt="" width="25" height="50">
+    <img onclick="mudaImagem('cidade')" src="images/cidade.jpg" alt="" width="25" height="25">
+    <img onclick="mudaImagem('cidade2')" src="images/cidade2.jpg" alt="" width="25" height="25">
+</div>
+<div class="tamanho-maior">
+    <img id="imagemMaior" src="images/cidade2.jpg" alt="" width="84" height="84">
+
+
+</div>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio - 03 - java script</title>
+</head>
+<script>
+    function mostrar() {
+        document.querySelector("P").style.display = "block";
+    }
+
+    function ocultar() {
+        document.querySelector("p").style.display = "none";
+    }
+</script>
+
+
+<body onload="ocultar()">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor impedit laborum sed quaerat dolorem
+        voluptatem nihil maiores vitae dolore, voluptate deleniti totam, ad voluptatum pariatur quod harum? Asperiores,
+        sed?</p>
+    <button onclick="mostrar()">Mostrar</button>
+    <button onclick="ocultar()">Ocultar</button>
+</body>
+
+</html>

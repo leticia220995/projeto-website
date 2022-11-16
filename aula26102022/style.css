@@ -1,0 +1,44 @@
+h1 {
+    /*body {
+    
+    margin-top: 100px;
+    
+    margin-left: 70px;
+    
+    margin-right: 40px;
+    
+    margin-bottom: 10px;
+    
+    }   } */
+}
+
+body {
+    border: 1px solid red;
+
+
+
+}
+
+.explicacao-margin {
+
+    margin-top: 100px;
+
+    margin-left: 70px;
+
+    margin-right: 40px;
+
+    margin-bottom: 10px;
+
+    .explicacao-margin {
+    
+            margin-top: 100px;
+    
+            margin-left: 70px;
+    
+            margin-right: 40px;
+    
+            margin-bottom: 10px;
+    
+    }   }
+
+}   
